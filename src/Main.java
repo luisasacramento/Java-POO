@@ -1,17 +1,41 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
+//Solução sem Orientação a Objetos
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner sc = new Scanner(System.in);
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        double xA, xB, xC, yA, yB, yC;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        System.out.println("Enter the measures of triangle X: ");
+        xA = sc.nextDouble();
+        xB= sc.nextDouble();
+        xC = sc.nextDouble();
+
+        System.out.println("Enter the measures of triangle Y: ");
+        yA = sc.nextDouble();
+        yB= sc.nextDouble();
+        yC = sc.nextDouble();
+
+        double p = (xA + xB + xC) /2.0;
+        double areaX = Math.sqrt(p *(p-xA)*(p-xB)*(p-xC));
+
+        p = (yA + yB + yC) /2.0;
+        double areaY = Math.sqrt(p *(p-yA)*(p-yB)*(p-yC));
+
+
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
+
+        if (areaX > areaY){
+            System.out.println("Larger area: X");
+
+        }else {
+            System.out.println("Larger area: Y");
         }
+
+
+        sc.close();
+
     }
 }

@@ -1,8 +1,8 @@
-package FirstExample.application;
-
-import FirstExample.entities.Triangle;
+package application;
 
 import java.util.Scanner;
+
+import entities.Triangle;
 
 public class Program {
     public static void main(String[] args){

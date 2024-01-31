@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FirstExample/FirstExample.iml" filepath="$PROJECT_DIR$/FirstExample/FirstExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-POO.iml" filepath="$PROJECT_DIR$/JAVA-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RectangleExample/RectangleExample.iml" filepath="$PROJECT_DIR$/RectangleExample/RectangleExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalaryTaxExample/SalaryTaxExample.iml" filepath="$PROJECT_DIR$/SalaryTaxExample/SalaryTaxExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/StockExample/StockExample.iml" filepath="$PROJECT_DIR$/StockExample/StockExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentExample/StudentExample.iml" filepath="$PROJECT_DIR$/StudentExample/StudentExample.iml" />
     </modules>
   </component>
 </project>
